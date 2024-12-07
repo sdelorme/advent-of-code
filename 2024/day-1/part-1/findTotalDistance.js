@@ -19,3 +19,8 @@ export const findTotalDistance = (data) => {
 
   return totalDistance
 }
+
+// create a hash map of the left column values
+// iterate through the right column
+// if lefHash[rightColumnVal] exists, add to it's count
+// iterate through the hash --map into new array by multiplying its key by it's value
